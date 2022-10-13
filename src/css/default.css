@@ -1,0 +1,235 @@
+@charset "utf-8";
+
+/*******************************************************
+* 업무 그룹명 : 공통 업무
+* 설 명 : 시스템 전반에 걸쳐 사용되는 CSS파일
+* 작 성 자 : 조윤식
+* 작 성 일 : 2022.10.13
+*******************************************************/
+
+/* reset */
+* {
+    font-family: "Nanum Gothic";
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: "";
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+select {
+    color: black;
+}
+
+button {
+    background: inherit;
+    border: none;
+    color: black;
+}
+
+/* text ===========================================================================
+.textLeft : 좌측정렬 (Default)
+.textRight : 우측정렬
+.textCenter : 중앙정렬
+*/
+
+.textLeft {
+    text-align: left;
+}
+
+.textRight {
+    text-align: right;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+/* font-size ===========================================================================
+.fontLg : 폰트 16px
+.fontMd : 폰트 14px
+.fontSm : 폰트 12px
+.fontBold : 폰트 두껍게
+*/
+
+.fontLg {
+    font-size: 16px;
+}
+
+.fontMd {
+    font-size: 14px;
+}
+
+.fontSm {
+    font-size: 12px;
+}
+
+.fontBold {
+    font-weight: bold;
+}
+
+/* color ===========================================================================
+.bg* : background-color
+.font* : color
+*/
+
+.borderBlack {
+    border-color: black;
+}
+
+.borderGray {
+    border-color: gray;
+}
+
+.borderRed {
+    border-color: red;
+}
+
+.borderBlue {
+    border-color: blue;
+}
+
+.bgBlack {
+    background-color: black;
+}
+
+.bgGray {
+    background-color: gray;
+}
+
+.bgRed {
+    background-color: red;
+}
+
+.bgBlue {
+    background-color: blue;
+}
+
+.fontBlack {
+    color: black;
+}
+
+.fontGray {
+    color: gray;
+}
+
+.fontRed {
+    color: red;
+}
+
+.fontBlue {
+    color: blue;
+}
+
+/* button ===========================================================================
+.btnBox - 버튼을 포함한 그룹
+.btnBlue - 기능버튼
+.btnGray - 비기능버튼
+.btnWhite - 초기화 및 리셋 기능
+.btnSearch - 검색버튼
+*/
+
+.btnBox {
+    width: 100%;
+    text-align: right;
+    padding: 20px 0px;
+}
+
+.btnGray {
+    display: inline-block;
+    margin-left: 5px;
+    padding: 6px 20px;
+    background-color: #666666;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 12px;
+    border: 1px solid #555555;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btnBlue {
+    display: inline-block;
+    margin-left: 5px;
+    padding: 6px 20px;
+    background-color: #127ab9;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 12px;
+    border: 1px solid #0a6aa4;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btnWhite {
+    display: inline-block;
+    margin-left: 5px;
+    padding: 5px 20px;
+    background-color: #ffffff;
+    color: #222222;
+    font-weight: bold;
+    font-size: 12px;
+    border: 1px solid #dddddd;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btnSearch {
+    display: inline-block;
+    margin-left: 5px;
+    padding: 5px 20px;
+    background-color: #5c7185;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 12px;
+    border: 1px solid #536678;
+    text-decoration: none;
+    text-align: center;
+}

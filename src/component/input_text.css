@@ -1,0 +1,32 @@
+:root {
+    --input-border-error-color: red;
+    --input-placeholder-color: gray;
+    --button-background-disabled-color: gray;
+}
+html {
+    font-size: 12px;
+}
+
+.input_text .error {
+    border: 1px solid var(--input-border-error-color);
+}
+
+::placeholder {
+    color: var(--input-placeholder-color);
+}
+
+button {
+    background-color: blue;
+}
+.btnBlue {
+
+}
+
+.btnGray:disabled {
+    background-color: var(--button-background-disabled-color);
+    color: var(--button-background-disabled-color);
+}
+
+.btnSearch {
+
+}

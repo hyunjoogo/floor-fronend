@@ -1,4 +1,25 @@
 * {
     background: aliceblue;
+    box-sizing: border-box;
     font-size: 12px;
+}
+
+body {
+    margin: 0;
+    width: 1920px;
+}
+.app {
+
+}
+header {
+    background-color: lightgray;
+}
+
+main {
+    background-color: lightblue;
+    width: 100%;
+}
+
+footer {
+    background-color: lightcoral;
 }

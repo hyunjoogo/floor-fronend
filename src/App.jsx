@@ -1,8 +1,8 @@
 import React from "react";
 
 function App() {
-    const yoon = () => {
-        console.log("a");
+    const joo = () => {
+        console.log("joo");
     };
 
     return (
